@@ -4,7 +4,10 @@ class Account:
         self.__balance = balance # private attribute
 
     def deposit(self,amount):
-        self.__balance+=amount
+        if amount > 0:
+            self.__balance+=amount
+        else:
+            return "Wrong amount"
 
     def withdrawal(self, amount):
         if amount <=self.__balance:
@@ -17,7 +20,7 @@ class Account:
 
 # Creating object of account class
 account = Account("Ram",45000)
-account.deposit(50000)
-account.withdrawal(20000)
+account.deposit(70000)
+account.withdrawal(15000)
 print(account.display_balance())
 
