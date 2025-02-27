@@ -14,4 +14,4 @@ def convert_to_camel_case(s):
     for w in split_word[1:]:
         result = result+ w.title()
     return result
-print(convert_to_camel_case("hello World"))
+print(convert_to_camel_case("hello"))
