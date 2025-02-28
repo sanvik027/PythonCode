@@ -8,6 +8,8 @@ class Car:
     def display_info(self):
         return f"{self.make},{self.model},{self.year}"
 
+
+
 # creating object for the car class
 car = Car("Tata","Punch",2021)
 print(car.display_info())
