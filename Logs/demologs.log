@@ -1,0 +1,12 @@
+DEBUG:root:debug: addition of numbers is: 7
+INFO:root:info: subtraction of numbers is: 1
+WARNING:root:warning: multiplications of numbers is: 15
+ERROR:root:error: divison of numbers is: 0.8333333333333334
+DEBUG:root:debug: addition of numbers is: 7
+INFO:root:info: subtraction of numbers is: 1
+WARNING:root:warning: multiplications of numbers is: 15
+ERROR:root:error: divison of numbers is: 0.8333333333333334
+DEBUG:root:debug: addition of numbers is: 37
+INFO:root:info: subtraction of numbers is: 37
+WARNING:root:warning: multiplications of numbers is: 1620
+ERROR:root:error: divison of numbers is: 10.0
