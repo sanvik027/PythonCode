@@ -11,5 +11,5 @@ def second_largest(lst):
             seen.add(i)
 
     return list(seen)
-result = sorted(second_largest([1,1,2,3,4,5,5,6,1,2,3,7,4]))
-print(result[-2])
+result = sorted(second_largest([1,1,2,3,4,5,5,6,1,2,3,7,4]),reverse=True)
+print(result[1])
