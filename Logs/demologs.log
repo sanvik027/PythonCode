@@ -10,3 +10,15 @@ DEBUG:root:debug: addition of numbers is: 37
 INFO:root:info: subtraction of numbers is: 37
 WARNING:root:warning: multiplications of numbers is: 1620
 ERROR:root:error: divison of numbers is: 10.0
+2025-03-16 22:18:18,402 - DEBUG : debug: addition of numbers is: 37
+2025-03-16 22:18:18,402 - INFO : info: subtraction of numbers is: 37
+2025-03-16 22:18:18,402 - WARNING : warning: multiplications of numbers is: 1620
+2025-03-16 22:18:18,403 - ERROR : error: divison of numbers is: 10.0
+16-03-2025 10:21:10 PM - DEBUG : debug: addition of numbers is: 37
+16-03-2025 10:21:10 PM - INFO : info: subtraction of numbers is: 37
+16-03-2025 10:21:10 PM - WARNING : warning: multiplications of numbers is: 1620
+16-03-2025 10:21:10 PM - ERROR : error: divison of numbers is: 10.0
+16-03-2025 10:21:13 PM - DEBUG : debug: addition of numbers is: 37
+16-03-2025 10:21:13 PM - INFO : info: subtraction of numbers is: 37
+16-03-2025 10:21:13 PM - WARNING : warning: multiplications of numbers is: 1620
+16-03-2025 10:21:13 PM - ERROR : error: divison of numbers is: 10.0

@@ -1,4 +1,8 @@
 # declaring a decorator function
+import logging
+logging.basicConfig(level=logging.INFO)
+
+
 def my_decorator(func):
     def wrapper(*args, **kwargs):
         print("Pass the parameter to see the greetings :")
@@ -14,3 +18,5 @@ def greet(msg):
 
 # output
 print(greet("Ram"))
+
+

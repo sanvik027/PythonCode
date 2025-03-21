@@ -1,6 +1,11 @@
 import logging
 
-logging.basicConfig(level= logging.DEBUG,filename="../Logs/demologs.log",filemode='a')
+# Configure logging
+logging.basicConfig(level=logging.DEBUG,
+                    filename="../Logs/demologs.log",
+                    filemode='a',
+                    format='%(asctime)s - %(levelname)s : %(message)s',
+                    datefmt='%d-%m-%Y %I:%M:%S %p')
 class DemoLogging:
     def add_nums(self,a,b):
         return a+b
@@ -13,7 +18,7 @@ class DemoLogging:
 
     def div_nums(self,a,b):
         try:
-            if b >0:
+            if b !=0:
                 return a/b
             else:
                 raise ValueError("The denominator must be greater than 0")
